@@ -177,6 +177,138 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://gary8682.github.io/2021/05/12/%E5%85%B3%E4%BA%8E%E8%B5%84%E6%9C%AC%E6%88%90%E6%9C%AC/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="您吃了吗？">
+      <meta itemprop="description" content="身居猪圈，仰望星空。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="郭放的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/12/%E5%85%B3%E4%BA%8E%E8%B5%84%E6%9C%AC%E6%88%90%E6%9C%AC/" class="post-title-link" itemprop="url">关于资本成本</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-05-12 11:09:45 / Modified: 12:10:43" itemprop="dateCreated datePublished" datetime="2021-05-12T11:09:45+08:00">2021-05-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BC%B0%E5%80%BC/" itemprop="url" rel="index"><span itemprop="name">估值</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/05/12/%E5%85%B3%E4%BA%8E%E8%B5%84%E6%9C%AC%E6%88%90%E6%9C%AC/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/05/12/%E5%85%B3%E4%BA%8E%E8%B5%84%E6%9C%AC%E6%88%90%E6%9C%AC/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><code>这是一篇长期未完成的文章，当我认为我对于“计算资本成本”这个问题有新的认知的时候，会回来把这篇文章改一改。希望几年后这篇文章能作为一个成熟的方法论而存在</code></p>
+<p>估值中，估计资本成本是一件很重要的事情。</p>
+<p>值定义价值创造的方法有很多，总之，以上列出了一些CAPM不适用于早期投资的理由。在进行并购交易和其他我不太了解的交易形式时，会有其他理由使得CAPM不适用与估计资本成本。我倾向于从现金流的角度，讲“资本的收益大于资本的（机会）成本”的部分，看做是资本的收益。</p>
+<p>在Ibbotson SBBI 2013 Valuation Yearbook中，认为可以从三个角度来看资本成本：</p>
+<p>​    从公司的资产来看，是一个在贴现现金流的时候，用到的贴现率，强调这是估值的时候用的一个数字。</p>
+<p>​    从公司的负债来看，是一家公司在具体的竞争背景下保留资本的经济成本（这个我也没搞太懂）</p>
+<p>​    从投资者的角度来看，是投资者所要求的回报率，或者说是投资者的机会成本。</p>
+<h3 id="为什么不用简单的CAPM"><a href="#为什么不用简单的CAPM" class="headerlink" title="为什么不用简单的CAPM"></a>为什么不用简单的CAPM</h3><p>之前我一直简单粗暴地用CAPM来确定资本成本，四月份参加华为的那个比赛的时候也是，后来意识到，这大错特错（还好评委没有在比赛中支出我的错误，而且别人也是这么写的），因为CAPM的假设实在是太多了，如下(从MBA智库百科复制粘贴的）：</p>
+<blockquote>
+<p>1、投资者希望财富越多愈好，效用是财富的函数，财富又是<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E6%94%B6%E7%9B%8A%E7%8E%87">投资收益率</a>的函数，因此可以认为效用为收益率的函数。</p>
+<p>2、投资者能事先知道<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E6%94%B6%E7%9B%8A%E7%8E%87">投资收益率</a>的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83">概率分布</a>为<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83">正态分布</a>。</p>
+<p>3、<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E9%A3%8E%E9%99%A9">投资风险</a>用投资收益率的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%96%B9%E5%B7%AE">方差</a>或标准差标识。</p>
+<p>4、影响投资决策的主要因素为<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%9C%9F%E6%9C%9B%E6%94%B6%E7%9B%8A%E7%8E%87">期望收益率</a>和风险两项。</p>
+<p>5、投资者都遵守主宰原则(Dominance rule)，即同一风险水平下，选择收益率较高的证券；同一收益率水平下，选择风险较低的证券。投资者能事先知道<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E6%94%B6%E7%9B%8A%E7%8E%87">投资收益率</a>的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83">概率分布</a>为<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83">正态分布</a>。</p>
+<p><strong>CAPM的附加假设条件：</strong></p>
+<p>6、可以在无风险<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%98%E7%8E%B0%E7%8E%87">折现率</a>R的水平下无限制地借入或贷出资金。</p>
+<p>7、所有投资者对证券收益率<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83">概率分布</a>的看法一致，因此市场上的效率边界只有一条。</p>
+<p>8、所有投资者具有相同的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E6%9C%9F%E9%99%90">投资期限</a>，而且只有一期。</p>
+<p>9、所有的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84">证券投资</a>可以无限制的细分，在任何一个<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88">投资组合</a>里可以含有非整数股份。</p>
+<p>10、买卖证券时没有<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E7%A8%8E%E8%B4%9F">税负</a>及<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC">交易成本</a>。</p>
+<p>11、所有投资者可以及时免费获得充分的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E5%B8%82%E5%9C%BA%E4%BF%A1%E6%81%AF">市场信息</a>。无风险折现率R的水平下无限制地借入或贷出资金。</p>
+<p>12、不存在<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80">通货膨胀</a>，且<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%98%E7%8E%B0%E7%8E%87">折现率</a>不变。</p>
+<p>13、投资者具有相同预期，即他们对预期收益率、<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%A0%87%E5%87%86%E5%B7%AE">标准差</a>和证券之间的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E5%8D%8F%E6%96%B9%E5%B7%AE">协方差</a>具有相同的预期值。</p>
+</blockquote>
+<p>不是说做这些假设不行，但是在给特定的公司估值的时候，有很多假设与事实的偏差过大。毕竟CAPM是一个奠基性的、开创性的模型，这种东西假设一般都很苛刻。</p>
+<p><strong>假设现在我们是一家风险投资机构，要给一家互联网初创企业估值，让我们看看CAMP哪些假设是与互联网初创企业完全不符合的</strong>（不是说没列出来的就符合，只是说，我在这里想强调每种类型的企业要用不同的方法、模型来确定资本成本，所以列出来的几条是初创企业独有的特点）：</p>
+<blockquote>
+<p> 8、所有投资者具有相同的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E6%9C%9F%E9%99%90">投资期限</a>，而且只有一期。</p>
+</blockquote>
+<p>一般风险投资机构的不同投资人，都有不同的期限偏好，这就是为什么基金会设置三年五年七年等退出期限。期限匹配是早期投资中非常重要的一点，因为只有让每种期限偏好的投资人都有合适的退出窗口，才能多募钱，但是CAPM直接就假设期限都一样了。</p>
+<blockquote>
+<p>9、所有的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84">证券投资</a>可以无限制的细分，在任何一个<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88">投资组合</a>里可以含有非整数股份。</p>
+</blockquote>
+<p>通常早期投资就投几个企业，不存在所谓的风险分散，也不存在所谓的投资组合。</p>
+<blockquote>
+<ol start="10">
+<li>买卖证券时没有<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E7%A8%8E%E8%B4%9F">税负</a>及<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC">交易成本</a>。</li>
+</ol>
+</blockquote>
+<p>早期投资交易成本老高了。</p>
+<blockquote>
+<ol start="2">
+<li>投资者能事先知道<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%8A%95%E8%B5%84%E6%94%B6%E7%9B%8A%E7%8E%87">投资收益率</a>的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83">概率分布</a>为<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83">正态分布</a>。</li>
+</ol>
+</blockquote>
+<p>早期投资的风险肯定是不确定的，不存在正态分布的投资收益率。</p>
+<blockquote>
+<p>11、所有投资者可以及时免费获得充分的<a target="_blank" rel="noopener" href="https://wiki.mbalib.com/wiki/%E5%B8%82%E5%9C%BA%E4%BF%A1%E6%81%AF">市场信息</a>。无风险折现率R的水平下无限制地借入或贷出资金。</p>
+</blockquote>
+<p>初创企业一般都不披露财务信息，只有尽职调查的时候才能知道想要的信息，钱投出去之后就没有“免费获得的充分信息”了。说买股票的话，花点钱买个wind数据库就能了解信息了，可以假装没看见事实与假设的不符合。但是尽职调查通常都得一个团队出差好几天才能做，要花费大量的时间与金钱。</p>
+<p><strong>总之，以上列出了一些CAPM不适用于早期投资的理由。在进行并购交易和其他我不太了解的交易形式时，会有其他理由使得CAPM不适用与估计资本成本。</strong></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://gary8682.github.io/2021/05/10/Git%20gnutls_handshake()%20failed%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -292,10 +424,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-05-10 09:54:05 / Modified: 10:38:51" itemprop="dateCreated datePublished" datetime="2021-05-10T09:54:05+08:00">2021-05-10</time>
+              <time title="Created: 2021-05-10 09:54:05" itemprop="dateCreated datePublished" datetime="2021-05-10T09:54:05+08:00">2021-05-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-05-12 11:49:04" itemprop="dateModified" datetime="2021-05-12T11:49:04+08:00">2021-05-12</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -335,20 +473,20 @@
 <p>金融中介机构的中介功能是为了解决信息不对称。我认为，签约前的信息不对称不光导致逆向选择，还会导致重复甄别问题（金融市场与金融机构那本书里只强调了逆向选择问题）。所以信息不对称导致的问题如下：</p>
 <p><strong>签约前的信息不对称：逆向选择+信息重复甄别</strong></p>
 <p><strong>签约后的信息不对称：道德风险</strong></p>
-<h4 id="1-逆向选择和经纪业务"><a href="#1-逆向选择和经纪业务" class="headerlink" title="1. 逆向选择和经纪业务"></a>1. 逆向选择和经纪业务</h4><p>信息不对称导致逆向选择与道德风险，逆向选择属于ex-ante，是事前的，而道德风险属于ex-post，是事后的。</p>
+<h4 id="逆向选择和经纪业务"><a href="#逆向选择和经纪业务" class="headerlink" title="逆向选择和经纪业务"></a>逆向选择和经纪业务</h4><p>信息不对称导致逆向选择与道德风险，逆向选择属于ex-ante，是事前的，而道德风险属于ex-post，是事后的。</p>
 <p>像银行这样的金融中介机构可以通过开展信用分析等经济业务筛选出不同风险和信用登记的用户，解决逆向选择问题。</p>
 <p>《金融市场与金融机构》一书中对这个话题有详细的阐述，但是由于我自己已经在不同的地方看过好多遍了，而且书上写的很完整，没有必要再整理一次。</p>
-<h4 id="2-重复甄别、信息重复和经纪业务"><a href="#2-重复甄别、信息重复和经纪业务" class="headerlink" title="2. 重复甄别、信息重复和经纪业务"></a>2. 重复甄别、信息重复和经纪业务</h4><p>单个主体可以通过付出一定的成本来解决逆向选择和道德风险问题，但是由于每个主体都收集了同样的信息，等于说重复甄别了信息，付出了不必要的重复成本。而金融中介机构可以通过重复提供信息，避免不同需要信息的主体重复甄别不必要的成本。总之，每个需要信息的个体都要自己甄别一次，但是中介机构只需要甄别一次就行。</p>
+<h4 id="重复甄别、信息重复和经纪业务"><a href="#重复甄别、信息重复和经纪业务" class="headerlink" title="重复甄别、信息重复和经纪业务"></a>重复甄别、信息重复和经纪业务</h4><p>单个主体可以通过付出一定的成本来解决逆向选择和道德风险问题，但是由于每个主体都收集了同样的信息，等于说重复甄别了信息，付出了不必要的重复成本。而金融中介机构可以通过重复提供信息，避免不同需要信息的主体重复甄别不必要的成本。总之，每个需要信息的个体都要自己甄别一次，但是中介机构只需要甄别一次就行。</p>
 <p>另外，在《现代金融中介机构》一书中给出了这样的一个例子：设想许多石油公司开采石油，然后再进一步假设政府要求石油公司在挖完石油以后要把坑填上，然后其他开采者再次勘探的时候还看不出来这个地方有没有被开采过。这样每个石油公司都要重复勘探，于是，对与整个社会而言，就产生了不必要<strong>签约前的信息不对称：逆向选择+信息重复甄别</strong></p>
 <p><strong>签约后的信息不对称：道德风险</strong>的信息重复甄别成本。这样的场景在提供金融服务的时候是经常出现的，比如对贷款人信用进行评估时，是看不出来这个贷款人以前有没有被其他机构评估过。于是就造成了重复的成本。</p>
 <p>金融中介机构可以对截面数据进行重复的使用像银行这样的金融中介机构可以通过开展信用分析等经济业务筛选出不同风险和信用登记的用户，解决逆向选择问题。，而这种使用是超越时间点限制的。比如几个月前对一个贷款人的信用评估信息，在几个月后的下一次贷款行为中，只要还不过时，就可以再用一次。</p>
-<h4 id="3-信息的可观察性与经纪业务"><a href="#3-信息的可观察性与经纪业务" class="headerlink" title="3. 信息的可观察性与经纪业务"></a>3. 信息的可观察性与经纪业务</h4><p>有些信息容易甄别，我们称之为可观察的。可观察的信息不需要太高的成本就能获得，这时候经纪业务就没有必要介入。但是有时候，信息是需要专业技能和大量时间精力才能观察到的，这时候，如果单个主体分别收集这些信息，每个人都会由于缺乏必要的技能和时间精力，导致获取信息的质量下降。这时候就需要金融机构的介入。</p>
+<h4 id="信息的可观察性与经纪业务"><a href="#信息的可观察性与经纪业务" class="headerlink" title="信息的可观察性与经纪业务"></a>信息的可观察性与经纪业务</h4><p>有些信息容易甄别，我们称之为可观察的。可观察的信息不需要太高的成本就能获得，这时候经纪业务就没有必要介入。但是有时候，信息是需要专业技能和大量时间精力才能观察到的，这时候，如果单个主体分别收集这些信息，每个人都会由于缺乏必要的技能和时间精力，导致获取信息的质量下降。这时候就需要金融机构的介入。</p>
 <p>另外，信息网络的规模增大，也使得经纪业务变得必要。比如收集全国人民的身高体重肺活量，这些信息是可观察的，但是由于网络巨大，最好由经纪人完成信息收集。</p>
-<h4 id="4-签约后的信息不对称与经纪业务"><a href="#4-签约后的信息不对称与经纪业务" class="headerlink" title="4. 签约后的信息不对称与经纪业务"></a>4. 签约后的信息不对称与经纪业务</h4><p>签约后的信息不对称就是道德风险，这在很多书里都有讲，看过很多遍了，不需要总结。</p>
-<h4 id="5-定性资产转换与经纪业务"><a href="#5-定性资产转换与经纪业务" class="headerlink" title="5. 定性资产转换与经纪业务"></a>5. 定性资产转换与经纪业务</h4><p>像个人住房抵押贷款这种债权，缺乏二级市场支持，流动性差，有较大的买卖差价，违约风险大。总之相对于其利率，不是一个很好的债权。</p>
+<h4 id="签约后的信息不对称与经纪业务"><a href="#签约后的信息不对称与经纪业务" class="headerlink" title="签约后的信息不对称与经纪业务"></a>签约后的信息不对称与经纪业务</h4><p>签约后的信息不对称就是道德风险，这在很多书里都有讲，看过很多遍了，不需要总结。</p>
+<h4 id="定性资产转换与经纪业务"><a href="#定性资产转换与经纪业务" class="headerlink" title="定性资产转换与经纪业务"></a>定性资产转换与经纪业务</h4><p>像个人住房抵押贷款这种债权，缺乏二级市场支持，流动性差，有较大的买卖差价，违约风险大。总之相对于其利率，不是一个很好的债权。</p>
 <p>这时候金融结构介入，购买住房抵押贷款，并通过倍成本为存款的债务来为其购买提供资金。这时候，金融机构有效地实现了住房抵押贷款与存款之间的转换，把一个低流动性、高买卖差价、违约风险大的债权变成了一个极高流动性、低买卖差价、几乎没有风险的债权。</p>
 <p>在定性资产转换业务中，金融机构通过提供期限转换、可分性、流动性、信用风险和计价单位等服务，获得报酬；报酬是以存贷差价的形式是实现的。</p>
-<h4 id="5-期限错配、风险与经纪业务"><a href="#5-期限错配、风险与经纪业务" class="headerlink" title="5. 期限错配、风险与经纪业务"></a>5. 期限错配、风险与经纪业务</h4><p>第五条中提到，金融中介机构讲低流动性的资产转换为了高流动性的资产。这是通过金融机构本身的资产负债表期限的错配，并自己承担错配的风险来实现的，毕竟期限的错配不会消失。</p>
+<h4 id="期限错配、风险与经纪业务"><a href="#期限错配、风险与经纪业务" class="headerlink" title="期限错配、风险与经纪业务"></a>期限错配、风险与经纪业务</h4><p>第五条中提到，金融中介机构讲低流动性的资产转换为了高流动性的资产。这是通过金融机构本身的资产负债表期限的错配，并自己承担错配的风险来实现的，毕竟期限的错配不会消失。</p>
 <p>在资产方面，金融机构拥有固定期限的住房抵押贷款等定性资产转换业务，这里以住房抵押贷款为例；在负债方面，金融机构起初只拥有存款带来的负债，这是就产生了期限的错配。资产方是长期的，而负债方的存款通常是短期的。</p>
 <p>但是金融机构不能改变客户存款的久期，这时候，金融机构就要通过引入久期更长的金融负债，来让金融机构总体的负债久期与资产久期相匹配。换句话说，就是用长期负债把久期给平均上去。</p>
 <p>但是对长期负债的利率的预测，通常是有偏的。这种有偏性就是金融中介机构期限配置业务中，风险的根本来源。金融机构就是通过自己承担这种风险，用自己资产负债表的结构，来改善社会资产负债表的结构。这让我想到了央行的货币政策和财政政策调控中，也是通过改变自己的资产负债表结构，来改善社会的资产负债表结构。</p>
@@ -395,10 +533,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-05-09 10:22:17 / Modified: 10:37:14" itemprop="dateCreated datePublished" datetime="2021-05-09T10:22:17+08:00">2021-05-09</time>
+              <time title="Created: 2021-05-09 10:22:17" itemprop="dateCreated datePublished" datetime="2021-05-09T10:22:17+08:00">2021-05-09</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-05-12 11:43:42" itemprop="dateModified" datetime="2021-05-12T11:43:42+08:00">2021-05-12</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -434,7 +578,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>《无形资产估值》，其实我还没搞明白传统的有形资产该如何估值，也没有形成自己的估值体系。但是二者是并行不悖的，不妨从现在就开始看这本书。毕竟相比于教材，这本书的内容还是比较轻松的。</p>
+          <p><code>#这是一篇长期未完成的文章，此标识将在完成后消失</code></p>
+<p><code>这本书暂时没有时间看，先把开头摆在这里，挖个坑</code></p>
+<p>《无形资产估值》，其实我还没搞明白传统的有形资产该如何估值，也没有形成自己的估值体系。但是二者是并行不悖的，不妨从现在就开始看这本书。毕竟相比于教材，这本书的内容还是比较轻松的。</p>
 <p>这本书的核心是所谓的GRRK，即Governance, realationship, risk and knowledge，并对如何从这四个方面进行无形资产估值进行系统的阐述。</p>
 <p>这本书直率的支出，在特定风险的即期计量上，市场是否存在过于以来简单的收入利润额和财务比例的问题。</p>
 
@@ -479,10 +625,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-05-08 22:57:01 / Modified: 23:11:14" itemprop="dateCreated datePublished" datetime="2021-05-08T22:57:01+08:00">2021-05-08</time>
+              <time title="Created: 2021-05-08 22:57:01" itemprop="dateCreated datePublished" datetime="2021-05-08T22:57:01+08:00">2021-05-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-05-12 11:46:26" itemprop="dateModified" datetime="2021-05-12T11:46:26+08:00">2021-05-12</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -518,7 +670,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这本书的内容比较轻松，为估值提供了一个全新的视角。</p>
+          <p><code>#这是一篇长期未完成的文章，此标识将在完成后消失</code></p>
+<p>这本书的内容比较轻松，为估值提供了一个全新的视角。</p>
 <p>现在的许多企业，估值通常都不是其内在价值驱动的，而是其背后那个“不太靠谱的故事”驱动的，其估值者也不一定有良好的估值素养。我当然希望自己成为一个有素养的估值者，但是严谨的模型和无差错的数据，在现实世界中是很难找到的。</p>
 <p>尤其是我想进入的早期投资行业，许多企业的价值，都是由故事驱动，而不是背后确定的事实。</p>
 <p>想象一条估值光谱（类似意识形态光谱哪种），最左侧是早期风投，最右侧是传统的价值投资，也就是坚定地投资既成事实的人，中间是渐变的投资风格。要有自由的眼光，不能拘泥于光谱上的任何一种估值形态。</p>
@@ -792,7 +945,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-05-03 22:50:44" itemprop="dateModified" datetime="2021-05-03T22:50:44+08:00">2021-05-03</time>
+                <time title="Modified: 2021-05-12 11:10:04" itemprop="dateModified" datetime="2021-05-12T11:10:04+08:00">2021-05-12</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -984,7 +1137,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-03-17 00:16:32" itemprop="dateModified" datetime="2021-03-17T00:16:32+08:00">2021-03-17</time>
+                <time title="Modified: 2021-05-12 11:47:52" itemprop="dateModified" datetime="2021-05-12T11:47:52+08:00">2021-05-12</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1022,112 +1175,17 @@
 
       
           <ol>
-<li>耐心等待。折价的投资标的通常是稀缺的，价值回归的过程通常是漫长的</li>
-<li>规避风险。记住自己是在投资而非投机，保住本金是第一要义。</li>
-<li>相信事实而非可能性。要关注有事实支持的价值，而非建立在预期基础上的价值。未来是必须要考虑的风险因素，而非投资依据。</li>
-<li>买的便宜。注重安全边际。</li>
+<li><p><strong>耐心等待。</strong>折价的投资标的通常是稀缺的，价值回归的过程通常是漫长的</p>
+</li>
+<li><p><strong>规避风险。</strong>记住自己是在投资而非投机，保住本金是第一要义。</p>
+</li>
+<li><p><strong>相信事实而非可能性。</strong>要关注有事实支持的价值，而非建立在预期基础上的价值。未来是必须要考虑的风险因素，而非投资依据。</p>
+</li>
+<li><p><strong>买的便宜。</strong>注重安全边际。</p>
+</li>
+<li><p>（2021.5.12）<strong>自己估值。</strong></p>
+</li>
 </ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://gary8682.github.io/2021/02/14/K%E7%BA%BF%E7%9A%84%E6%9C%AC%E8%B4%A8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="您吃了吗？">
-      <meta itemprop="description" content="身居猪圈，仰望星空。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="郭放的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/02/14/K%E7%BA%BF%E7%9A%84%E6%9C%AC%E8%B4%A8/" class="post-title-link" itemprop="url">K线的本质</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-02-14 16:34:54" itemprop="dateCreated datePublished" datetime="2021-02-14T16:34:54+08:00">2021-02-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-05-10 10:52:43" itemprop="dateModified" datetime="2021-05-10T10:52:43+08:00">2021-05-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BA%A4%E6%98%93/" itemprop="url" rel="index"><span itemprop="name">交易</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine: </span>
-    
-    <a title="valine" href="/2021/02/14/K%E7%BA%BF%E7%9A%84%E6%9C%AC%E8%B4%A8/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/02/14/K%E7%BA%BF%E7%9A%84%E6%9C%AC%E8%B4%A8/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>标题起的比较唬人，我不认为我理解的“交易”或者“投资”的本质，那些都是复杂而广义的概念。</p>
-<p>但是K线就是一个简单的工具，不像是那些富有哲理的名词，它有精确的定义，工具属性极强，所以我暂且自信地把标题起为“K线的本质”。如果我以后发现不是这么回事、发现K线比我想象的复杂多了、突然认为K线不只有工具属性，那就是另外一回事了。 </p>
-<p><strong>K线的作用就是显示历史价格的轨迹，而历史价格的轨迹是多空博弈的结果。</strong></p>
-<p>价格的形成机制在不同的市场上不太一样，微观上来讲，现行市场价格的形成原因可以用深度图很好地体现出来。在竞价(Auction)机制中，同一时间每个价位都有不同的量想要买入\卖出。一个价位限价单被市价单吃掉，价格就会走向下一个价位交易。换句话说，一个价位上的量被买空了（卖同理 ），就得买（卖）下一个价位的了。软件上显示出来的价格，是当前的成交价格。而当前的成交价格及其走势是多空博弈形成的。无非就是买方深度大，价格往上走，卖方深度大，价格往下走，原理上并不复杂。</p>
-<p>另外多说一点，当前的成交价格可能不止一个，比如当有人一下子把最优五档价格都买光的时候，当前成交价格就有五个。虽然从逻辑上来讲，肯定是最优一档的价格比最优二档的价格先卖掉，然后以此类推到第五代档。但是在交易系统中，这五档是在计算机中同时结算并达成交易的，所以会存在这种现象。我不知道当这种情况出现的时候屏幕上显示的数字是怎么算的，但是这不影响接下来的阐述。</p>
-<p>K线之所以被广泛采用，是因为它可以在有限的屏幕空间上尽可能的显示更多细节，而又不抛弃整体。要是想最最最准确表达历史上的价格轨迹，其实不应该用什么线，而是应该直接把历史所有交易记录列出来，只要用图就会损失信息细节。但是由于人脑过于愚蠢，功能有限，只有电脑才能消化这些数据，人还是要看图的。另外，屏幕的像素点有限，分时图无法显示一个较长时间段内的价格波动，只能用K线来显示更多的信息，帮助愚蠢的人脑来理解电脑一下子就能理解的历史交易记录和价格走势。</p>
-<p><strong>有人喜欢分析K线，我认为是没有问题的。但是这里有两种分析的思路：</strong></p>
-<ol>
-<li><strong>多空博弈形成历史价格，历史价格简化成人脑能理解的图形（比如K线），然后我直接去分析这些图形。</strong></li>
-<li><strong>多空博弈形成历史价格，历史价格简化成人脑能理解的图形（比如K线），我先把图形（比如K线）翻译成历史价格和多空力量的博弈，然后去分析历史价格和多空力量的博弈的过程传递给我的信息。</strong></li>
-</ol>
-<p><strong>显然第二种思路是对的，但我们很容易陷入第一种思路</strong>。</p>
-<p>我上次在画家地小区里中国体育彩票那儿还看见一个彩票版的K线，这就是过度使用K线的结果。还真有个大爷在那里分析给大家听。</p>
-<p>K线传递历史价格和多空博弈的信息，就像是摩尔斯电码传递文字。直接拿着K线来分析，就像是直接把摩尔斯电码的各种长短直线拿来分析，显然是不行的。</p>
 
       
     </div>
@@ -1212,12 +1270,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">categories</span>
       </div>
       <div class="site-state-item site-state-tags">
